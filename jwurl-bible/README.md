@@ -12,6 +12,7 @@ Install the package with
 
 ### Requirements
 
+- [Espanso](https://espanso.org/docs/next/install/mac/) 2.1.3-alpha or above
 - python3
 - [Unidecode](https://pypi.org/project/Unidecode/)
 
