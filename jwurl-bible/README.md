@@ -12,8 +12,8 @@ Install the package with
 
 ### Requirements
 
-python3
-[Unidecode](https://pypi.org/project/Unidecode/)
+- python3
+- [Unidecode](https://pypi.org/project/Unidecode/)
 
 ## Customization
 
