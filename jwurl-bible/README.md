@@ -8,11 +8,12 @@ You can review your notes and read what a Bible verse says with a simple click. 
 
 Install the package with
 
-`espanso install jwurl-bible`
+`espanso install jwurl-bible --git https://github.com/vbastianpc/jw-espanso-package.git --external`
 
 ### Requirements
 
 python3
+[Unidecode](https://pypi.org/project/Unidecode/)
 
 ## Customization
 
@@ -20,7 +21,7 @@ You can choose your preferred language.
 
 ```espanso edit match/packages/jwurl-bible/package.yml```
 
-Modifica la quinta línea por un idioma disponible (ver carpeta `booknames`)
+Modify the fifth line for an available language (see folder `booknames`)
 
 ```yaml
 global_vars:
