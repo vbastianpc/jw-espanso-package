@@ -1,0 +1,17 @@
+global_vars:
+  - name: jw_lang_prefer
+    type: echo
+    params:
+      echo: E
+
+matches:
+  - regex: _(?P<bookname>.*?) ?(?P<chapter>\d+):(?P<verses>\d+(?:[\-,\d]+)*)\s
+    replace: "{{jwurl}} "
+    vars:
+      - name: jwurl
+        type: script
+        params:
+          args:
+            - python3
+            - "%CONFIG%/match/packages/jwurl-bible/script.py"
+            - "{{jw_lang_prefer}}"
