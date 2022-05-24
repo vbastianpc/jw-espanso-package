@@ -2,10 +2,14 @@ global_vars:
   - name: jw_lang_prefer
     type: echo
     params:
-      echo: E
+      echo: E # You can edit this...
+  - name: pub
+    type: echo
+    params:
+      echo: nwtsty # ...and this
 
 matches:
-  - regex: _(?P<bookname>.*?) ?(?P<chapter>\d+):(?P<verses>\d+(?:[\-,\d]+)*)\s
+  - regex: _(?P<bookname>.*?) ?(?P<chapter>\d+):(?P<verses>\d+(?:[ \-,\d]+)*)\s\s
     replace: "{{jwurl}} "
     vars:
       - name: jwurl
@@ -15,3 +19,4 @@ matches:
             - python3
             - "%CONFIG%/match/packages/jwurl-bible/script.py"
             - "{{jw_lang_prefer}}"
+            - "{{pub}}"

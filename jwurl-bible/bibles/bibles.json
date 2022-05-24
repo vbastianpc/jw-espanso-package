@@ -1,0 +1,49 @@
+{
+    "S": {
+        "langcode": "es",
+        "pub": [
+            "nwtsty",
+            "nwt",
+            "bi12"
+        ]
+    },
+    "SCH": {
+        "langcode": "es",
+        "pub": [
+            "nwt"
+        ]
+    },
+    "E": {
+        "langcode": "en",
+        "pub": [
+            "nwtsty",
+            "nwt",
+            "bi12"
+        ]
+    },
+    "AN": {
+        "langcode": "cat",
+        "pub": [
+            "nwt",
+            "bi7"
+        ]
+    },
+    "VT": {
+        "langcode": "vi",
+        "pub": [
+            "nwt"
+        ]
+    },
+    "SLV": {
+        "langcode": "vi",
+        "pub": [
+            "nwt"
+        ]
+    },
+    "BVL": {
+        "langcode": "es",
+        "pub": [
+            "nwt"
+        ]
+    }
+}
