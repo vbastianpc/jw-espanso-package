@@ -4,6 +4,8 @@ An Espanso package to generate Bible JW URL.
 
 You can review your notes and read what a Bible verse says with a simple click. You can also create your own playlists of biblical texts in sign language, with a simple text editor.
 
+<video src="https://github.com/vbastianpc/jw-espanso-package/blob/main/assets/demo-jwurl-bible.mp4?raw=true"></video>
+
 
 ## Requirements
 
@@ -68,5 +70,4 @@ You can test this regular expression at this [link](https://regexr.com/6g6ph). N
 | S              | nwtsty | _1jo 3:19, 20    | https://www.jw.org/finder?wtlocale=S&prefer=lang&bible=62003019-62003020&pub=nwtsty | [1 John 3:19, 20](https://www.jw.org/finder?wtlocale=S&prefer=lang&bible=62003019-62003020&pub=nwtsty) |
 | VT             | nwt    | _1 gia 3:19, 20  | https://www.jw.org/finder?wtlocale=VT&prefer=lang&bible=62003019-62003020&pub=nwt | [1 Giăng 3:19, 20](https://www.jw.org/finder?wtlocale=VT&prefer=lang&bible=62003019-62003020&pub=nwt) |
 | SLV            | nwt    | _1 gia 3:19, 20  | https://www.jw.org/finder?wtlocale=VT&prefer=lang&bible=62003019-62003020&pub=nwt | [1 Giăng 3:19, 20](https://www.jw.org/finder?wtlocale=VT&prefer=lang&bible=62003019-62003020&pub=nwt) |
-
 
