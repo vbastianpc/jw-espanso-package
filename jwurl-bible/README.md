@@ -4,7 +4,9 @@ An Espanso package to generate Bible JW URL.
 
 You can review your notes and read what a Bible verse says with a simple click. You can also create your own playlists of biblical texts in sign language, with a simple text editor.
 
-<video src="https://github.com/vbastianpc/jw-espanso-package/blob/main/assets/demo-jwurl-bible.mp4?raw=true"></video>
+
+https://user-images.githubusercontent.com/34177793/169950883-fadf1fa2-4182-4ad3-bafa-c5fe5bbd580d.mp4
+
 
 
 ## Requirements
