@@ -22,6 +22,9 @@ espanso install jwurl-bible --git https://github.com/vbastianpc/jw-espanso-packa
 
 ### Update package
 
+```
+espanso package update jwurl-bible
+```
 
 
 ## Customization
