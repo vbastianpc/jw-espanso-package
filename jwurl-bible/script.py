@@ -46,7 +46,7 @@ if __name__ == '__main__':
     verses = os.getenv('ESPANSO_VERSES', '1-3')
 
     langcodes = [bibles[jw_lang_prefer]['langcode']] + [file.stem for file in BOOKNAMES_PATH.glob('*.txt')]
-    print(jw_lang_prefer, pub, user_input_bookname, chapter, verses, BOOKNAMES_PATH, sep='\n')
+
     for langcode in langcodes:
         try:
             booknum, bookname = search_bookname(langcode, user_input_bookname)
@@ -58,12 +58,9 @@ if __name__ == '__main__':
         print(f'{user_input_bookname} {chapter}:{verses}??') # not found
         sys.exit()
 
-
     split_verses = re.split(r'[ ,-]+', verses)
     first_verse, last_verse = int(split_verses[0]), int(split_verses[-1])
     code_citation = f'{booknum:0=2}{chapter:0=3}{first_verse:0=3}' + (f'-{booknum:0=2}{chapter:0=3}{last_verse:0=3}' if first_verse != last_verse else '')
 
     url = f'https://www.jw.org/finder?wtlocale={jw_lang_prefer}&prefer=lang&bible={code_citation}&pub={pub}'
-
     print(f'[{bookname} {chapter}:{verses}]({url})')
-
